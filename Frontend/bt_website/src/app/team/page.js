@@ -1,5 +1,5 @@
 import style from './team.module.css';
-import Headbar from '../../components/core/NavBar/NavBar';
+import Header from '@/components/shared/Header/Header';
 import TeamContent from '@/components/features/team/TeamContent';
 
 
@@ -7,7 +7,7 @@ export default function Team() {
   return (
     <div id="main">
       <div id={style.team}>
-        <Headbar />
+        <Header />
         <TeamContent />
       </div>
     </div>
