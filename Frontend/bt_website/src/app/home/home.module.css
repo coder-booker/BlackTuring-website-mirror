@@ -1,0 +1,14 @@
+#home {
+    /* position: relative; */
+
+    margin: 0 auto;
+
+    width: 80%;
+    height: 100%;
+
+    color: white;
+
+    background-color: rgb(var(--black1));
+
+    /* overflow: visible; */
+}
